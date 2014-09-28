@@ -1,0 +1,9 @@
+D:\github\chessGame\basicGame\basicGame\bin\Debug\basicGame.exe.config
+D:\github\chessGame\basicGame\basicGame\obj\Debug\basicGame.csprojResolveAssemblyReference.cache
+D:\github\chessGame\basicGame\basicGame\obj\Debug\basicGame.Form1.resources
+D:\github\chessGame\basicGame\basicGame\obj\Debug\basicGame.Properties.Resources.resources
+D:\github\chessGame\basicGame\basicGame\obj\Debug\basicGame.csproj.GenerateResource.Cache
+D:\github\chessGame\basicGame\basicGame\bin\Debug\basicGame.exe
+D:\github\chessGame\basicGame\basicGame\bin\Debug\basicGame.pdb
+D:\github\chessGame\basicGame\basicGame\obj\Debug\basicGame.exe
+D:\github\chessGame\basicGame\basicGame\obj\Debug\basicGame.pdb
