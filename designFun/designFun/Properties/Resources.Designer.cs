@@ -63,6 +63,16 @@ namespace designFun.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap _2966521_102802061105_2 {
+            get {
+                object obj = ResourceManager.GetObject("2966521_102802061105_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap psb {
             get {
                 object obj = ResourceManager.GetObject("psb", resourceCulture);
