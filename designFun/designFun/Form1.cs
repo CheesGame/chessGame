@@ -31,5 +31,10 @@ namespace designFun
         {
 
         }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
