@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithm_test", "algorithm_test\algorithm_test.vcxproj", "{BD15FB66-48A4-4BD3-A443-CCF83FEA7844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD15FB66-48A4-4BD3-A443-CCF83FEA7844}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD15FB66-48A4-4BD3-A443-CCF83FEA7844}.Debug|Win32.Build.0 = Debug|Win32
+		{BD15FB66-48A4-4BD3-A443-CCF83FEA7844}.Release|Win32.ActiveCfg = Release|Win32
+		{BD15FB66-48A4-4BD3-A443-CCF83FEA7844}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
