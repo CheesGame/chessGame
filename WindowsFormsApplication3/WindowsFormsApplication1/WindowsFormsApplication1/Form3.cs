@@ -8,12 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using algorith_moveInChess;
 using Microsoft.VisualBasic.PowerPacks;
 
 namespace WindowsFormsApplication1
 {
     public partial class Form3 : Form
     {
+        Board board = new Board();
+
         TreeNode qipu = new TreeNode("棋谱");
         Step step = new Step();
         Boolean flag = true;
@@ -24,6 +27,7 @@ namespace WindowsFormsApplication1
         public Form3()
         {
             InitializeComponent();
+            Controls.Add(sh);
             pictureBox1.Visible = false;
             this.treeView1.Nodes.Add(qipu);
             ImageList imageList = new ImageList();
@@ -232,7 +236,7 @@ namespace WindowsFormsApplication1
             a.Size = new Size(20, 20);
             a.Location = new Point(pbX, pbY);
             a.BackStyle = BackStyle.Opaque;
-            a.Tag = d - 101;
+            a.Tag = step.getNumberOfStep();
             if (piece.getColor() < 0)
             {
                 a.BackColor = Color.White;
@@ -244,6 +248,11 @@ namespace WindowsFormsApplication1
             //     this.Controls.Add(picturebox2);
             //      picturebox2.Show();
             step.addStep(piece);
+
+
+            Piece [] hehe=new Piece[400];
+            piece.setBelong(board);
+            hehe=piece.playChess(piece.getXCoordinate(),piece.getYCoordinate(),piece.getColor());
 
             TreeNode node = new TreeNode(piece.getXCoordinate() + "," + piece.getYCoordinate());
             if (piece.getColor() < 0) node.SelectedImageIndex = node.ImageIndex = 1;
@@ -314,21 +323,28 @@ namespace WindowsFormsApplication1
         {
             SaveFile();
         }
-
+        int times = 0;
         private void treeView1_Click(object sender, EventArgs e)
         {
-            String[] coordinate = treeView1.SelectedNode.Text.Split(',');
-            int xChi = System.Int32.Parse(coordinate[0]);
-            int yChi = System.Int32.Parse(coordinate[1]);
+            times = times + 1;
+            if (times<=2) return;
+            String[] coordinate=new String[3];
+            coordinate = treeView1.SelectedNode.Text.Split(',');
+            if (coordinate[0] == "棋谱") return;
+            int xChi = int.Parse(coordinate[0]);
+            int yChi = int.Parse(coordinate[1]);
             int number = 0;
             for (number = 0; number < step.getNumberOfStep(); number++)
             {
                 if (xChi == step.getStep()[number].getXCoordinate() && yChi == step.getStep()[number].getYCoordinate()) break;
             }
-            for (; number < step.getNumberOfStep(); number++)
-            {
-                sh.Shapes.Remove(number);
-            }
+            foreach (Shape i in sh.Shapes)
+                if (number.ToString() == i.Tag.ToString())
+                {
+                    sh.Shapes.Remove(i);
+                    break;//遍历中删除元素必须退出
+                }
+ 
         }
 
 

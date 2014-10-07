@@ -21,7 +21,6 @@ namespace algorith_moveInChess
         //棋子的组号
         private int groupNo;
 
-        private bool update;
 
         public Piece()
         {
@@ -29,9 +28,8 @@ namespace algorith_moveInChess
             color = 0;
             xCoordinate = 0;
             yCoordinate = 0;
-            liberty = 0;
             groupNo = -1;
-            update = false;
+
         }
         public Piece(Board belong)
         {
@@ -39,37 +37,37 @@ namespace algorith_moveInChess
             color = 0;
             xCoordinate = 0;
             yCoordinate = 0;
-            liberty = 0;
             groupNo = -1;
-            update = false;
+          
         }
-        public Piece(Board belong, int color, int xCoordinate, int yCoordinate, int liberty, int groupNo, bool update)
+        public Piece(Board belong, int color, int xCoordinate, int yCoordinate,  int groupNo)
         {
             this.belongBoard = belong;
             this.color = color;
             this.xCoordinate = xCoordinate;
             this.yCoordinate = yCoordinate;
-            this.liberty = liberty;
             this.groupNo = groupNo;
-            this.update = update;
         }
         public void setBelong(Board belong)
         {
             this.belongBoard = belong;
         }
-        public void playChess(int x, int y, int color)
+        //主程序入口
+        public Piece [] playChess(int x, int y, int color)
         {
             if (check_already(x, y))
-                return;
+                return null;
             if (check_repeat())
-                return;
+                return null ;
             if (!(check_couldeat(x, y, color)) && (check_eated(x, y, color)))
             {
                 belongBoard.existence[x, y] = false;//消除改点假设存在的痕迹
-                return;
+                return null ;
             }
+            Piece [] hehe;
             //Console.WriteLine("successful");
-            outcome(x, y, color);
+            hehe=outcome(x, y, color);
+            return hehe;
         }
 
         //判断该点是否有子
@@ -193,8 +191,10 @@ namespace algorith_moveInChess
         }
 
         //确定改点可以下棋且下完该点后的后果
-        public void outcome(int x, int y, int color)
+        public Piece [] outcome(int x, int y, int color)
         {
+            int hehe_id=0;               //hehe的下标
+            Piece [] hehe=new Piece[400];//返回的消失数组
             belongBoard.board[x, y].setColor(color);
             belongBoard.board[x, y].setXCoordinate(x);
             belongBoard.board[x, y].setYCoordinate(y);
@@ -231,11 +231,14 @@ namespace algorith_moveInChess
                     for (int j = 0; j < num_piece; ++j)
                         if (group[j] == ans)
                         {
-                            eraseChess();
+                            hehe[hehe_id++]=new Piece(belongBoard,belongBoard.board[temp[j]/100,temp[j]%100].color,temp[j]/100,temp[j]%100,ans);
+                            //eraseChess();
+
                             belongBoard.existence[temp[j] / 100, temp[j] % 100] = false;
                         }
                 }
             }
+            return hehe;
         }
 
         //合并所有相连的棋子
@@ -288,6 +291,7 @@ namespace algorith_moveInChess
                 return group_now;
             return -1;
         }
+
         //从界面抹去一个棋子点
         public void eraseChess()
         {
@@ -327,14 +331,6 @@ namespace algorith_moveInChess
         public int getLiberty()
         {
             return this.liberty;
-        }
-        public void setUpdate(bool update)
-        {
-            this.update = update;
-        }
-        public bool getUpdate()
-        {
-            return this.update;
         }
     }
 }
