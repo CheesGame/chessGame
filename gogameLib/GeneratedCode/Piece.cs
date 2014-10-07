@@ -35,31 +35,6 @@ public class Piece
         this.liberty = liberty;
         this.update = update;
     }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
     public void setColor(int color) {
         this.color = color;
     }

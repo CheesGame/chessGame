@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace algorith_moveInChess
 {
-    class Program
+    class Board
     {
-        static void Main(string[] args)
-        {
+        //整个棋盘用19*19的数组表示
+        private Piece[,] board = new Piece[21, 21];
 
-        }
     }
 }
