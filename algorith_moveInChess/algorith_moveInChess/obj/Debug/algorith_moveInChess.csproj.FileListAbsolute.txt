@@ -1,0 +1,1 @@
+D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\bin\Debug\algorith_moveInChess.exe.config

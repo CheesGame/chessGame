@@ -1,0 +1,5 @@
+E:\dasan\cs\project\gogameLib\bin\Debug\gogameLib.dll
+E:\dasan\cs\project\gogameLib\bin\Debug\gogameLib.pdb
+E:\dasan\cs\project\gogameLib\obj\Debug\gogameLib.csprojResolveAssemblyReference.cache
+E:\dasan\cs\project\gogameLib\obj\Debug\gogameLib.dll
+E:\dasan\cs\project\gogameLib\obj\Debug\gogameLib.pdb

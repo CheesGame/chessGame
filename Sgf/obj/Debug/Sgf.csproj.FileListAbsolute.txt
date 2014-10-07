@@ -1,0 +1,6 @@
+E:\dasan\cs\project\Sgf\bin\Debug\Sgf.exe.config
+E:\dasan\cs\project\Sgf\bin\Debug\Sgf.exe
+E:\dasan\cs\project\Sgf\bin\Debug\Sgf.pdb
+E:\dasan\cs\project\Sgf\obj\Debug\Sgf.exe
+E:\dasan\cs\project\Sgf\obj\Debug\Sgf.pdb
+E:\dasan\cs\project\Sgf\obj\Debug\Sgf.csprojResolveAssemblyReference.cache
