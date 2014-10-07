@@ -1,1 +1,6 @@
 D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\bin\Debug\algorith_moveInChess.exe.config
+D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\obj\Debug\algorith_moveInChess.csprojResolveAssemblyReference.cache
+D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\bin\Debug\algorith_moveInChess.exe
+D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\bin\Debug\algorith_moveInChess.pdb
+D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\obj\Debug\algorith_moveInChess.exe
+D:\github\chessGame\algorith_moveInChess\algorith_moveInChess\obj\Debug\algorith_moveInChess.pdb

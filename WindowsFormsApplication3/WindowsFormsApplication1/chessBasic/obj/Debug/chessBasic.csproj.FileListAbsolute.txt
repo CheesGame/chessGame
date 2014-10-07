@@ -1,0 +1,5 @@
+E:\WindowsFormsApplication3\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.dll
+E:\WindowsFormsApplication3\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.pdb
+E:\WindowsFormsApplication3\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.csprojResolveAssemblyReference.cache
+E:\WindowsFormsApplication3\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.dll
+E:\WindowsFormsApplication3\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.pdb

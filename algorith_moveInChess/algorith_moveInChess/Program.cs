@@ -10,7 +10,9 @@ namespace algorith_moveInChess
     {
         static void Main(string[] args)
         {
-
+            Board a=new Board();
+            
+            
         }
     }
 }
