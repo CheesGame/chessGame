@@ -1,9 +1,0 @@
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\bin\Debug\GoGame1.exe.config
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\bin\Debug\GoGame1.exe
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\bin\Debug\GoGame1.pdb
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\obj\Debug\GoGame1.Form1.resources
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\obj\Debug\GoGame1.Properties.Resources.resources
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\obj\Debug\GoGame1.csproj.GenerateResource.Cache
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\obj\Debug\GoGame1.exe
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\obj\Debug\GoGame1.pdb
-E:\dasan\cs\project\WindowsFormsApplication1\GoGame1\obj\Debug\GoGame1.csprojResolveAssemblyReference.cache

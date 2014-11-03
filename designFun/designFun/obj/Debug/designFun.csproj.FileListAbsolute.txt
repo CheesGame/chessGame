@@ -1,9 +1,0 @@
-D:\github\chessGame\designFun\designFun\bin\Debug\designFun.exe.config
-D:\github\chessGame\designFun\designFun\bin\Debug\designFun.exe
-D:\github\chessGame\designFun\designFun\bin\Debug\designFun.pdb
-D:\github\chessGame\designFun\designFun\obj\Debug\designFun.csprojResolveAssemblyReference.cache
-D:\github\chessGame\designFun\designFun\obj\Debug\designFun.board.resources
-D:\github\chessGame\designFun\designFun\obj\Debug\designFun.Properties.Resources.resources
-D:\github\chessGame\designFun\designFun\obj\Debug\designFun.csproj.GenerateResource.Cache
-D:\github\chessGame\designFun\designFun\obj\Debug\designFun.exe
-D:\github\chessGame\designFun\designFun\obj\Debug\designFun.pdb
