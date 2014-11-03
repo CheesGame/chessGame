@@ -1,0 +1,10 @@
+E:\weiqi4\WindowsFormsApplication1\clientSocket\bin\Debug\clientSocket.dll
+E:\weiqi4\WindowsFormsApplication1\clientSocket\bin\Debug\clientSocket.pdb
+E:\weiqi4\WindowsFormsApplication1\clientSocket\obj\Debug\clientSocket.dll
+E:\weiqi4\WindowsFormsApplication1\clientSocket\obj\Debug\clientSocket.pdb
+E:\weiqi4\WindowsFormsApplication1\clientSocket\obj\Debug\clientSocket.csprojResolveAssemblyReference.cache
+D:\newest\weiqi4\WindowsFormsApplication1\clientSocket\bin\Debug\clientSocket.dll
+D:\newest\weiqi4\WindowsFormsApplication1\clientSocket\bin\Debug\clientSocket.pdb
+D:\newest\weiqi4\WindowsFormsApplication1\clientSocket\obj\Debug\clientSocket.csprojResolveAssemblyReference.cache
+D:\newest\weiqi4\WindowsFormsApplication1\clientSocket\obj\Debug\clientSocket.dll
+D:\newest\weiqi4\WindowsFormsApplication1\clientSocket\obj\Debug\clientSocket.pdb

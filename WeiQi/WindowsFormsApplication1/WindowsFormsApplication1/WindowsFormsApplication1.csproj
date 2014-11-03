@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A273CB0-3DDA-445B-8089-C706D32F84FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clientSocket">
+      <HintPath>..\clientSocket\bin\Debug\clientSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllError.Designer.cs">
+      <DependentUpon>AllError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllSuccess.Designer.cs">
+      <DependentUpon>AllSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AskHuiQi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AskHuiQi.Designer.cs">
+      <DependentUpon>AskHuiQi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Battle_Entry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Battle_Entry.Designer.cs">
+      <DependentUpon>Battle_Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DaTing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DaTing.Designer.cs">
+      <DependentUpon>DaTing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Over.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game_Over.Designer.cs">
+      <DependentUpon>Game_Over.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailSend.Designer.cs">
+      <DependentUpon>MailSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Music.cs" />
+    <Compile Include="Take.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Take.Designer.cs">
+      <DependentUpon>Take.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Volume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Volume.Designer.cs">
+      <DependentUpon>Volume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OL_Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OL_Game.Designer.cs">
+      <DependentUpon>OL_Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SA_Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SA_Game.Designer.cs">
+      <DependentUpon>SA_Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AllError.resx">
+      <DependentUpon>AllError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllSuccess.resx">
+      <DependentUpon>AllSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AskHuiQi.resx">
+      <DependentUpon>AskHuiQi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Battle_Entry.resx">
+      <DependentUpon>Battle_Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DaTing.resx">
+      <DependentUpon>DaTing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game_Over.resx">
+      <DependentUpon>Game_Over.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailSend.resx">
+      <DependentUpon>MailSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take.resx">
+      <DependentUpon>Take.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volume.resx">
+      <DependentUpon>Volume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OL_Game.resx">
+      <DependentUpon>OL_Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SA_Game.resx">
+      <DependentUpon>SA_Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Fakes Include="Fakes\Client.fakes" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fengche.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runGirl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startbg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\猫动态.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutUs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameBgp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tishige.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameBgp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\chessBasic\chessBasic.csproj">
+      <Project>{77e485fe-e2f8-48f2-ba89-1e60b04abea4}</Project>
+      <Name>chessBasic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sgf\Sgf.csproj">
+      <Project>{c7c2c110-4118-4759-a281-84b9cebb449a}</Project>
+      <Name>Sgf</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\智代.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\出错提示按钮.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\网络对战进入界面_背景图.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\网络对战人员搜索图.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\游戏背景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\游戏背景1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\网络对战进入界面_背景图1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutUs%281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\STONE1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\STONE2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleEntry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右进.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新堂爱.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\take.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\458.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20131212091511_QNQY3.thumb.700_0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailsend.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\游戏背景图_new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\over.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\大厅.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\人物黑.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\人物白.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00_副本.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\未标题-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

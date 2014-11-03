@@ -1,0 +1,12 @@
+E:\dasan\cs\project\SocketTest\bin\Debug\SocketTest.exe.config
+E:\dasan\cs\project\SocketTest\bin\Debug\SocketTest.exe
+E:\dasan\cs\project\SocketTest\bin\Debug\SocketTest.pdb
+E:\dasan\cs\project\SocketTest\obj\Debug\SocketTest.exe
+E:\dasan\cs\project\SocketTest\obj\Debug\SocketTest.pdb
+E:\dasan\cs\project\SocketTest\obj\Debug\SocketTest.csprojResolveAssemblyReference.cache
+E:\weiqi4\SocketTest\bin\Debug\SocketTest.exe.config
+E:\weiqi4\SocketTest\obj\Debug\SocketTest.exe
+E:\weiqi4\SocketTest\obj\Debug\SocketTest.pdb
+E:\weiqi4\SocketTest\bin\Debug\SocketTest.exe
+E:\weiqi4\SocketTest\bin\Debug\SocketTest.pdb
+E:\weiqi4\SocketTest\obj\Debug\SocketTest.csprojResolveAssemblyReference.cache
