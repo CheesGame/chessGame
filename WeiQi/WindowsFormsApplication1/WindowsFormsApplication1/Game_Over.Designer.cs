@@ -92,7 +92,7 @@
             this.MinimizeBox = false;
             this.Name = "Game_Over";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Game_Over";
+            this.Text = "某科学的勇者围棋";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Game_Over_Load);
             this.ResumeLayout(false);

@@ -30,10 +30,10 @@ E:\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\chessBasic.pdb
 E:\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.csprojResolveAssemblyReference.cache
 E:\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.dll
 E:\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.pdb
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\Sgf.dll
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\Sgf.pdb
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\chessBasic.dll
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\chessBasic.pdb
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.csprojResolveAssemblyReference.cache
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.dll
-D:\newest\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.pdb
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\Sgf.dll
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\Sgf.pdb
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\chessBasic.dll
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\bin\Debug\chessBasic.pdb
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.csprojResolveAssemblyReference.cache
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.dll
+D:\weiqi4\weiqi4\WindowsFormsApplication1\Sgf\obj\Debug\Sgf.pdb

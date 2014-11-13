@@ -314,7 +314,7 @@
             this.MaximizeBox = false;
             this.Name = "SA_Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "某科学的勇者围棋";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.Click += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);

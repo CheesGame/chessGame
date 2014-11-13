@@ -140,8 +140,6 @@ namespace WindowsFormsApplication1
                 wait = false;
                 if (firstFlag)
                 {
-                    //Take take = new Take();
-                    //take.Show();
                     takeStart = true;   //先手先进行提子
                     pictureBox3.Visible = true;
                     label3.Visible = true;
@@ -153,8 +151,6 @@ namespace WindowsFormsApplication1
                     //先接受对方提掉的子
                     player.receive();
                     TakeOpponentStone();
-                    //Take take = new Take();
-                    //take.Show();
                     takeStart = true;   //白棋先进行提子
                     pictureBox3.Visible = true;
                     label3.Visible = true;
@@ -509,6 +505,7 @@ namespace WindowsFormsApplication1
         {
             Game_Over gameover = new Game_Over(num_black, num_white);
             gameover.Show();
+            this.Close();
         }
         //清空棋谱中的棋子
         private void cleanAllStone()

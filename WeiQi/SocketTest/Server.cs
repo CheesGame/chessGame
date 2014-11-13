@@ -168,7 +168,6 @@ namespace SocketTest
                         }
                         catch (Exception e)
                         {
-                            return;
                         }
 
                     }
@@ -208,7 +207,6 @@ namespace SocketTest
                         }
                         catch (Exception e)
                         {
-                            return;
                         }
 
                     }
@@ -258,6 +256,7 @@ namespace SocketTest
                         }
                         catch
                         {
+                            clientSocket2.Close();
                         }
                         break;
                     }
@@ -284,6 +283,7 @@ namespace SocketTest
                         }
                         catch
                         {
+                            clientSocket2.Close();
                         }
                         break;
                     }

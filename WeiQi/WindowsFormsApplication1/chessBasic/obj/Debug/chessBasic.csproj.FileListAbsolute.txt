@@ -17,7 +17,7 @@ E:\weiqi4\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.dll
 E:\weiqi4\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.dll
 E:\weiqi4\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.pdb
 E:\weiqi4\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.pdb
-D:\newest\weiqi4\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.dll
-D:\newest\weiqi4\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.pdb
-D:\newest\weiqi4\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.dll
-D:\newest\weiqi4\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.pdb
+D:\weiqi4\weiqi4\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.dll
+D:\weiqi4\weiqi4\WindowsFormsApplication1\chessBasic\bin\Debug\chessBasic.pdb
+D:\weiqi4\weiqi4\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.dll
+D:\weiqi4\weiqi4\WindowsFormsApplication1\chessBasic\obj\Debug\chessBasic.pdb

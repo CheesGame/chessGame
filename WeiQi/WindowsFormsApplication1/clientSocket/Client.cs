@@ -16,7 +16,7 @@ namespace clientSocket
         private String sendMessage;     //保存要发送的消息
         private String receiveMessage;  //保存接收到的消息
         private int opponent;       //保存对手玩家的号
-        private IPAddress ip = IPAddress.Parse("192.168.1.102");
+        private IPAddress ip = IPAddress.Parse("10.125.106.90");
         private Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         public bool connectSever = false;
         

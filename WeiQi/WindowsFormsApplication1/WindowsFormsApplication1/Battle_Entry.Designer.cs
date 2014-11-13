@@ -133,7 +133,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Battle_Entry";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Battle_Entry";
+            this.Text = "某科学的勇者围棋";
             this.Load += new System.EventHandler(this.Battle_Entry_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

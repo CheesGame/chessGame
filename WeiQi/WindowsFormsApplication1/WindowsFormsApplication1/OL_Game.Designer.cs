@@ -355,7 +355,7 @@
             this.MaximizeBox = false;
             this.Name = "OL_Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OL_Game";
+            this.Text = "某科学的勇者围棋";
             this.Load += new System.EventHandler(this.OL_Game_Load);
             this.Click += new System.EventHandler(this.OL_Game_Click);
             this.menuStrip1.ResumeLayout(false);

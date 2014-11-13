@@ -65,7 +65,7 @@
             this.MinimizeBox = false;
             this.Name = "AboutUs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "某科学的勇者围棋";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.Shown += new System.EventHandler(this.Form2_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
