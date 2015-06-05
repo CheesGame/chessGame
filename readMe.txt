@@ -1,35 +1,34 @@
-±¾³ÌÐòÃû£ºÎ§Æå¶ÔÞÄÆ½Ì¨
-ÊµÏÖÓïÑÔ£ºC#
-¿ª·¢Æ½Ì¨£ºWindows 7+ Microsoft visual stdio 2012/2013
-±¾³ÌÐò×÷Õß£ºÀîè¡£¬¸ß½¡£¬½¹º£Õä£¬ÕÅ´ÓÔ½
-×÷ÕßÑ§ºÅ£º2012211961£¬2012211958£¬2012211976£¬2012212053
+æœ¬ç¨‹åºåï¼šå›´æ£‹å¯¹å¼ˆå¹³å°
+å®žçŽ°è¯­è¨€ï¼šC#
+å¼€å‘å¹³å°ï¼šWindows 7+ Microsoft visual stdio 2012/2013
+æœ¬ç¨‹åºä½œè€…ï¼šæŽç›ï¼Œé«˜å¥ï¼Œç„¦æµ·çï¼Œå¼ ä»Žè¶Š
 
-Ê×ÏÈ£¬Ö÷ÎÄ¼þ¼ÐchessGame´ò¿ªºó£¬
-³ÌÐò·ÖÎªÁ½¸öÎÄ¼þ¼Ð£º{
-	1. SocketTest¡ª¡ª·þÎñÆ÷¶Ë
-	2. WindowsFormsApplication1¡ª¡ªµ¥»ú¿Í»§¶Ë
+é¦–å…ˆï¼Œä¸»æ–‡ä»¶å¤¹chessGameæ‰“å¼€åŽï¼Œ
+ç¨‹åºåˆ†ä¸ºä¸¤ä¸ªæ–‡ä»¶å¤¹ï¼š{
+	1. SocketTestâ€”â€”æœåŠ¡å™¨ç«¯
+	2. WindowsFormsApplication1â€”â€”å•æœºå®¢æˆ·ç«¯
 }
 
-È»ºó£¬´ÓSocketTest´ò¿ªÎÄ¼þ¼Ðºó£¬
-´ÓSocketTest.csproj´ò¿ª·þÎñÆ÷ÏîÄ¿¡£
+ç„¶åŽï¼Œä»ŽSocketTestæ‰“å¼€æ–‡ä»¶å¤¹åŽï¼Œ
+ä»ŽSocketTest.csprojæ‰“å¼€æœåŠ¡å™¨é¡¹ç›®ã€‚
 
-È»ºó£¬WindowsFormsApplication1´ò¿ªÎÄ¼þ¼Ðºó£¬
-³ÌÐò·ÖÎªÁ½¸öÎÄ¼þ¼Ð£º{
-	1. chessBasic¡ª¡ªÀà¿â£¬ÆåÆ×Ëã·¨²¿·Ö
-	2. clientSocket¡ª¡ªÀà¿â£¬µ¥»ú¿Í»§¶Ë
-	3. sgf¡ª¡ªÀà¿â£¬ÆåÆ×²¿·Ö
-	4. WindowsFormsApplication1¡ª¡ª½çÃæ²¿·Ö£¬ÎªÖ÷Ìå²¿·Ö£¬ÓÃÓÚÁ¬½Ó1£¬2£¬3Èý¸öÀà¿â²¿·Ö
+ç„¶åŽï¼ŒWindowsFormsApplication1æ‰“å¼€æ–‡ä»¶å¤¹åŽï¼Œ
+ç¨‹åºåˆ†ä¸ºä¸¤ä¸ªæ–‡ä»¶å¤¹ï¼š{
+	1. chessBasicâ€”â€”ç±»åº“ï¼Œæ£‹è°±ç®—æ³•éƒ¨åˆ†
+	2. clientSocketâ€”â€”ç±»åº“ï¼Œå•æœºå®¢æˆ·ç«¯
+	3. sgfâ€”â€”ç±»åº“ï¼Œæ£‹è°±éƒ¨åˆ†
+	4. WindowsFormsApplication1â€”â€”ç•Œé¢éƒ¨åˆ†ï¼Œä¸ºä¸»ä½“éƒ¨åˆ†ï¼Œç”¨äºŽè¿žæŽ¥1ï¼Œ2ï¼Œ3ä¸‰ä¸ªç±»åº“éƒ¨åˆ†
 }
 
-×îºó£¬´ò¿ªWindowsFormsApplication1ÎÄ¼þ¼Ð£¬
-´ÓWindowsFormsApplication1.csproj´ò¿ªÖ÷ÌåÏîÄ¿¡£
+æœ€åŽï¼Œæ‰“å¼€WindowsFormsApplication1æ–‡ä»¶å¤¹ï¼Œ
+ä»ŽWindowsFormsApplication1.csprojæ‰“å¼€ä¸»ä½“é¡¹ç›®ã€‚
 
-ÒÔÉÏ£¬
+ä»¥ä¸Šï¼Œ
 
-Ð»Ð»ÔÄ¶Á¡£
+è°¢è°¢é˜…è¯»ã€‚
 
-ÓÉÈÎºÎÎÊÌâ£¬
+ç”±ä»»ä½•é—®é¢˜ï¼Œ
 
-ÇëµçÓÊ£ºBUPTGoGame@163.com
+è¯·ç”µé‚®ï¼šBUPTGoGame@163.com
 
 
